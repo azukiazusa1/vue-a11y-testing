@@ -1,0 +1,50 @@
+{
+  "name": "vue-a11y-testing",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^6.4.16",
+    "vue": "^3.2.27",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@storybook/addon-actions": "^6.4.16",
+    "@storybook/addon-essentials": "^6.4.16",
+    "@storybook/addon-links": "^6.4.16",
+    "@storybook/vue3": "^6.4.16",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/vue": "^6.4.2",
+    "@types/jest": "^27.4.0",
+    "@types/jest-axe": "^3.5.3",
+    "@types/node": "^16.11.21",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "axe-core": "^4.3.5",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "eslint-plugin-vue-a11y": "^0.0.31",
+    "jest": "^26.6.3",
+    "jest-axe": "^5.0.1",
+    "prettier": "^2.5.1",
+    "ts-jest": "^26.5.6",
+    "typescript": "~4.5.4",
+    "vite": "^2.7.13",
+    "vue-axe": "^3.1.2",
+    "vue-jest": "^5.0.0-alpha.10",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.29.8"
+  }
+}
